@@ -7,11 +7,12 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>MicroPro</title>
+        <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet" />
     </head>
     <body>
         <?php
-        echo '<p>Hello Worl</p>'; 
+        echo '<p>Hello World</p>'; 
         ?>
     </body>
 </html>
