@@ -13,7 +13,6 @@ and open the template in the editor.
     </head>
     <body>
         
-
         <div class="container-fluid"> <!-- make container-->
             <div class="row well"> <!-- make row-->
                 <div class ="col-md-4">
