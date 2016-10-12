@@ -13,31 +13,7 @@ and open the template in the editor.
     </head>
     <body>
         
-        
-        
-        <!--
-        <div class ="navbar-default navbar-static-top"> 
-            <div class="container ">
-                
-                <a href ="#" class="navbar-brand">Welcome to Micro Pro</a>
-                
-                <button class ="navbar-toggle" data-toggle ="collapse" data-target=".navHeaderCollapse">
-                fathi
-                
-                    <div class = "collapse navbar-collapse navHeaderCollapse">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li>
-                                <a href ="#">Home</a>
-                            
-                         </li>
-                        </ul>
-                    </div>
-                </button>
-            </div>
-        </div>
-        -->
-        
-        
+
         <div class="container-fluid"> <!-- make container-->
             <div class="row well"> <!-- make row-->
                 <div class ="col-md-4">
