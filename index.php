@@ -10,26 +10,26 @@ and open the template in the editor.
         <title>MicroProMobileQ</title>
         <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-        
+
         <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+        <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+        <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+        <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
 
-    <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
-    
+        <!-- Custom styles for this template -->
+        <link href="carousel.css" rel="stylesheet">
+
     </head>
     <body>
 
@@ -48,15 +48,15 @@ and open the template in the editor.
                             </button>
                             <!--<a class="navbar-brand" href="#">Project name</a>-->
                             <div class="container-fluid"> 
-                                <img class="img-responsive" src="pic/logo2.png" alt="Chania" style="width:260px;height:50px" >
+                                <img class="img-responsive" src="pic/logo2.png" alt="Logo" style="width:260px;height:50px" >
                             </div>
 
                         </div>
                         <div id="navbar" class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
                                 <li><a href="#">Home</a></li>    <!--<li class="active"><a href="#">Home</a></li>-->
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#contact">Contact</a></li>
+                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#contact">Contact Us</a></li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">User<span class="caret"></span></a>
                                     <ul class="dropdown-menu">
@@ -93,32 +93,35 @@ and open the template in the editor.
             </ol>
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img class="first-slide" src="pic/slide1.png" alt="First slide">
+
                     <div class="container">
+                        <img class="first-slide" src="pic/mixf.png" alt="First slide">
                         <div class="carousel-caption">
-                            <h1>Example headline.</h1>
-                            <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                            <h1>Welcome to shop</h1>
+                            <p> On our ship you can find Everything! </p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button"> Shop now! </a></p>
                         </div>
                     </div>
                 </div>
                 <div class="item">
-                    <img class="second-slide" src="pic/slide2.png" alt="Second slide">
+
                     <div class="container">
+                        <img class="second-slide" src="pic/slide1.png" alt="Second slide">
                         <div class="carousel-caption">
-                            <h1>Another example headline.</h1>
-                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                            <h1>Try our new Purchase & Quarantee System!</h1>
+                            <p>All eligible customers can have free acound!</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Sing In! </a></p>
                         </div>
                     </div>
                 </div>
                 <div class="item">
-                    <img class="third-slide" src="pic/slide4.png" alt="Third slide">
+
                     <div class="container">
+                        <img class="third-slide" src="pic/slide4.png" alt="Third slide">
                         <div class="carousel-caption">
-                            <h1>One more for good measure.</h1>
-                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                            <h1>We Can Fix it!</h1>
+                            <p>In our shop we can fix almost every pc, laptop, mobile, colsoles or other micro electronic device.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Contact Us</a></p>
                         </div>
                     </div>
                 </div>
@@ -133,33 +136,90 @@ and open the template in the editor.
             </a>
         </div><!-- /.carousel -->
 
+        <!-- Marketing messaging and featurettes
+    ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
 
-        <div class="container-fluid"> <!-- make container-->
-            <div class="row well"> <!-- make row-->
-                <div class ="col-md-4">
-                    <div class="row well-lg">
+        <div class="container marketing">
 
-                    </div> 
-                </div>    
-                <div class ="col-md-8">
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                    <h2>Heading</h2>
+                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                    <h2>Heading</h2>
+                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                    <h2>Heading</h2>
+                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
 
-                </div> 
 
+            <!-- START THE FEATURETTES -->
 
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                </div>
             </div>
 
-            <div class="row well">
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 col-md-push-5">
+                    <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+                <div class="col-md-5 col-md-pull-7">
+                    <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <!-- /END THE FEATURETTES -->
+
+
+            <!-- FOOTER -->
+            <footer>
+                <p class="pull-right"><a href="#">Back to Top</a></p>
                 <?php
                 echo "&copy ";
                 echo date("Y");
-                echo "  MicroPro Systems ";
+                echo "  MicroPro Systems,Inc";
                 ?>
-            </div>
-        </div>
+            </footer>
 
-        <?php
-        echo '<p>Hello World</p>';
-        ?>
+        </div><!-- /.container -->
+
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
