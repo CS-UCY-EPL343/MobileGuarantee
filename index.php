@@ -109,7 +109,7 @@ and open the template in the editor.
                         <img class="second-slide" src="pic/slide1.png" alt="Second slide">
                         <div class="carousel-caption">
                             <h1>Try our new Purchase & Quarantee System!</h1>
-                            <p>All eligible customers can have free acound!</p>
+                            <p>All eligible customers can have free account!</p>
                             <p><a class="btn btn-lg btn-primary" href="#" role="button">Sing In! </a></p>
                         </div>
                     </div>
@@ -120,7 +120,7 @@ and open the template in the editor.
                         <img class="third-slide" src="pic/slide4.png" alt="Third slide">
                         <div class="carousel-caption">
                             <h1>We Can Fix it!</h1>
-                            <p>In our shop we can fix almost every pc, laptop, mobile, colsoles or other micro electronic device.</p>
+                            <p>In our shop we can fix almost every pc, laptop, mobile, consoles or other micro electronic device.</p>
                             <p><a class="btn btn-lg btn-primary" href="#" role="button">Contact Us</a></p>
                         </div>
                     </div>
@@ -205,11 +205,11 @@ and open the template in the editor.
 
             <hr class="featurette-divider">
 
-            <!-- /END THE FEATURETTES -->
+            <!-- /End feutures -->
 
 
-            <!-- FOOTER -->
-            <footer>
+            
+            <footer><!-- FOOTER -->
                 <p class="pull-right"><a href="#">Back to Top</a></p>
                 <?php
                 echo "&copy ";
@@ -218,7 +218,7 @@ and open the template in the editor.
                 ?>
             </footer>
 
-        </div><!-- /.container -->
+        </div><!-- end of container -->
 
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
