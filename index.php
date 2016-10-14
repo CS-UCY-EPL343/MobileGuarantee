@@ -33,7 +33,7 @@ and open the template in the editor.
     </head>
     <body>
 
-        <!-- inser navbar on -->
+        <!-- insert navbar on -->
 
         <div class="navbar-wrapper">
             <div class="container">
