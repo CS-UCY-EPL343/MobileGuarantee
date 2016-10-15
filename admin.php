@@ -517,8 +517,15 @@ and open the template in the editor.
 
 
         <footer><!-- FOOTER -->
-            <p class="pull-right"><a href="#">Back to Top</a></p>
-        </footer>
+                 <div class="container">
+                <p class="pull-right"><a href="#">Back to Top</a></p>
+                <?php
+                echo "&copy ";
+                echo date("Y");
+                echo "  MicroPro Systems,Inc";
+                ?>
+                </div>
+            </footer>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

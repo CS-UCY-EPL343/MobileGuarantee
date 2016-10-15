@@ -89,12 +89,13 @@
 </div>
 
         <footer><!-- FOOTER -->
-            <h4 class="pull-right"><a href="#"> Back </a></h4>
+                 <div class="container">
                 <?php
-                echo " &emsp; &copy ";
+                echo "&copy ";
                 echo date("Y");
                 echo "  MicroPro Systems,Inc";
                 ?>
+                </div>
             </footer>
         
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->

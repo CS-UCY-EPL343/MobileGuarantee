@@ -110,7 +110,7 @@ and open the template in the editor.
                 <div class="item active">
 
                     <div class="container">
-                        <img class="first-slide" src="pic/carusel.png" alt="First slide" style="width:1180px;height:300px" >
+                        <img class="first-slide" src="pic/carusel.png" alt="First slide" style="width:1130px;height:300px" >
                         <div class="carousel-inner">
                             <h1>Welcome to the shop</h1>
                             <h4> On our ship you can find Everything! </h4>
@@ -132,7 +132,7 @@ and open the template in the editor.
                 <div class="item">
 
                     <div class="container">
-                        <img class="third-slide" src="pic/carusel3.png" alt="Third slide" style="width:1150px;height:300px">
+                        <img class="third-slide" src="pic/carusel3.png" alt="Third slide" style="width:1130px;height:300px">
                         <div class="carousel-inner">
                                     <h1>We Can Fix it!</h1>
                                     <h4>In our shop we can fix almost every pc, laptop, mobile, consoles or other micro electronic device.</h4>
@@ -158,12 +158,14 @@ and open the template in the editor.
 
        
             <footer><!-- FOOTER -->
+                 <div class="container">
                 <p class="pull-right"><a href="#">Back to Top</a></p>
                 <?php
                 echo "&copy ";
                 echo date("Y");
                 echo "  MicroPro Systems,Inc";
                 ?>
+                </div>
             </footer>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

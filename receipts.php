@@ -141,6 +141,15 @@ and open the template in the editor.
                 </tbody>
             </table>
         </div>
-
+<footer><!-- FOOTER -->
+                 <div class="container">
+                <p class="pull-right"><a href="#">Back to Top</a></p>
+                <?php
+                echo "&copy ";
+                echo date("Y");
+                echo "  MicroPro Systems,Inc";
+                ?>
+                </div>
+            </footer>
     </body>
 </html>
