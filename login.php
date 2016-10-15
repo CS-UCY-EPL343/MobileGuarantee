@@ -63,11 +63,11 @@
                                         <img class="img-responsive" src="pic/logo2.png" alt="Logo" style="width:215px;height:38px" >
                                     </div>
                                 </div>
-                                Login
+                               Login
                             </legend>
                             <div class="form-group">
                                 <label for="username">Username</label>
-                                <input value='' id="username-email" placeholder="Username" type="text" class="form-control" />
+                                <input value='' id="username" placeholder="Username" type="text" class="form-control" />
                             </div>
                             <div class="form-group">
                                 <label for="password">Password</label>
@@ -75,7 +75,7 @@
                             </div>
                             <div class="form-group text-center">
                                 <button class="btn btn-danger btn-cancel-action">Cancel</button>
-                                <input type="submit" class="btn btn-success btn-login-submit" value="Login" />
+                                <input type="submit" class="btn btn-info btn-login-submit" value="Login" />
                             </div>
                         </form>
                     </div>
@@ -88,6 +88,15 @@
         </div>
 </div>
 
+        <footer><!-- FOOTER -->
+            <h4 class="pull-right"><a href="#"> Back </a></h4>
+                <?php
+                echo " &emsp; &copy ";
+                echo date("Y");
+                echo "  MicroPro Systems,Inc";
+                ?>
+            </footer>
+        
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
     </body>

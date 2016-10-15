@@ -110,33 +110,34 @@ and open the template in the editor.
                 <div class="item active">
 
                     <div class="container">
-                        <img class="first-slide" src="pic/mixf.png" alt="First slide">
-                        <div class="carousel-caption">
+                        <img class="first-slide" src="pic/carusel.png" alt="First slide" style="width:1180px;height:300px" >
+                        <div class="carousel-inner">
                             <h1>Welcome to the shop</h1>
-                            <p> On our ship you can find Everything! </p>
-                            <p><a class="btn btn-lg btn-primary" href="#" role="button"> Shop now! </a></p>
+                            <h4> On our ship you can find Everything! </h4>
+                            <p><a class="btn btn-info btn-lg btn-primary" href="#" role="button"> Shop now! </a></p>
                         </div>
                     </div>
                 </div>
                 <div class="item">
 
                     <div class="container">
-                        <img class="second-slide" src="pic/slide1.png" alt="Second slide">
-                        <div class="carousel-caption">
+                        <img class="second-slide" src="pic/carusel2.png" alt="Second slide" style="width:1120px;height:300px">
+                        <div class="carousel-inner">
                             <h1>Try our new Purchase & Warranty System!</h1>
-                            <p>All eligible customers can have free account!</p>
-                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Sing In! </a></p>
+                            <h4>All eligible customers can have free account!</h4>
+                            <p><a class="btn btn-info btn-lg btn-primary" href="#" role="button">Sing In! </a></p>
                         </div>
                     </div>
                 </div>
                 <div class="item">
 
                     <div class="container">
-                        <img class="third-slide" src="pic/slide4.png" alt="Third slide">
-                        <div class="carousel-caption">
-                            <h1>We Can Fix it!</h1>
-                            <p>In our shop we can fix almost every pc, laptop, mobile, consoles or other micro electronic device.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Contact Us</a></p>
+                        <img class="third-slide" src="pic/carusel3.png" alt="Third slide" style="width:1150px;height:300px">
+                        <div class="carousel-inner">
+                                    <h1>We Can Fix it!</h1>
+                                    <h4>In our shop we can fix almost every pc, laptop, mobile, consoles or other micro electronic device.</h4>
+                                    <p><a class="btn btn-info btn-lg btn-primary" href="#" role="button">Contact Us</a></p>   
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -155,75 +156,7 @@ and open the template in the editor.
     ================================================== -->
         <!-- Wrap the rest of the page in another container to center all the content. -->
 
-        <div class="container marketing">
-
-            <!-- Three columns of text below the carousel -->
-            <div class="row">
-                <div class="col-lg-4">
-                    <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                    <h2>Heading</h2>
-                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                    <h2>Heading</h2>
-                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                    <h2>Heading</h2>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-                </div><!-- /.col-lg-4 -->
-            </div><!-- /.row -->
-
-
-            <!-- START THE FEATURETTES -->
-
-            <hr class="featurette-divider">
-
-            <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                </div>
-                <div class="col-md-5">
-                    <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-                </div>
-            </div>
-
-            <hr class="featurette-divider">
-
-            <div class="row featurette">
-                <div class="col-md-7 col-md-push-5">
-                    <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                </div>
-                <div class="col-md-5 col-md-pull-7">
-                    <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-                </div>
-            </div>
-
-            <hr class="featurette-divider">
-
-            <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                </div>
-                <div class="col-md-5">
-                    <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-                </div>
-            </div>
-
-            <hr class="featurette-divider">
-
-            <!-- /End feutures -->
-
-
-
+       
             <footer><!-- FOOTER -->
                 <p class="pull-right"><a href="#">Back to Top</a></p>
                 <?php
@@ -232,9 +165,6 @@ and open the template in the editor.
                 echo "  MicroPro Systems,Inc";
                 ?>
             </footer>
-
-        </div><!-- end of container -->
-
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
