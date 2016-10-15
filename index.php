@@ -64,6 +64,7 @@ and open the template in the editor.
                                         <li><a href="#">Purchases & Quarantee </a></li>
                                         <li role="separator" class="divider"></li>
                                         <li> <a class="btn btn-danger btn-group-vertical" href="#" role="Logout">Logout</a></li>
+
                                     </ul>
                                 </li>
 
@@ -74,7 +75,23 @@ and open the template in the editor.
                                         <button type="submit" class="btn btn-info">Sign in</button>
                                     </form>
                                 </li>
+                                <li><form class="navbar-form navbar-left">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Search">
+                                        </div>
+                                        <button type="button" class="btn btn-default">
+                                            <span class="glyphicon glyphicon-search"></span> Search
+                                        </button>
+                                    </form>
+                                </li>
 
+                                <li>
+                                    
+                                        <button class="btn btn-danger btn-lg" data-toggle="tooltip" data-placement="bottom" title="You don't have any bookings yet."><span class="glyphicon glyphicon-shopping-cart"></span> <span class="items">0</span></button>
+                                    
+
+                       
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -97,7 +114,7 @@ and open the template in the editor.
                     <div class="container">
                         <img class="first-slide" src="pic/mixf.png" alt="First slide">
                         <div class="carousel-caption">
-                            <h1>Welcome to shop</h1>
+                            <h1>Welcome to the shop</h1>
                             <p> On our ship you can find Everything! </p>
                             <p><a class="btn btn-lg btn-primary" href="#" role="button"> Shop now! </a></p>
                         </div>
@@ -108,7 +125,7 @@ and open the template in the editor.
                     <div class="container">
                         <img class="second-slide" src="pic/slide1.png" alt="Second slide">
                         <div class="carousel-caption">
-                            <h1>Try our new Purchase & Quarantee System!</h1>
+                            <h1>Try our new Purchase & Warranty System!</h1>
                             <p>All eligible customers can have free account!</p>
                             <p><a class="btn btn-lg btn-primary" href="#" role="button">Sing In! </a></p>
                         </div>
@@ -208,7 +225,7 @@ and open the template in the editor.
             <!-- /End feutures -->
 
 
-            
+
             <footer><!-- FOOTER -->
                 <p class="pull-right"><a href="#">Back to Top</a></p>
                 <?php
