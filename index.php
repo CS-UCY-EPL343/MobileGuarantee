@@ -63,7 +63,7 @@ and open the template in the editor.
                                         <!--<li class="dropdown-header">Info</li>-->
                                         <li><a href="#">Purchases & Quarantee </a></li>
                                         <li role="separator" class="divider"></li>
-                                        <li> <a class="btn btn-danger btn-group-vertical" href="#" role="Logout">Logout</a></li>
+                                        <li> <a class="btn btn-danger btn-group-vertical" href="#" role="Logout">Sign out</a></li>
 
                                     </ul>
                                 </li>
