@@ -77,7 +77,7 @@ and open the template in the editor.
                 <div class="row">
                     <div class="col-xs-5">
                         <output class="form-control">
-                            Όνομα
+                            Όνομα Εταιρίας
                         </output>
                     </div>
                     <div class="col-xs-7">
@@ -94,7 +94,7 @@ and open the template in the editor.
                 <div class="row">
                     <div class="col-xs-5">
                         <output class="form-control">
-                            Επίθετο
+                            Α.Φ.Μ Εταιριας
                         </output>
                     </div>
                     <div class="col-xs-7">
@@ -107,11 +107,12 @@ and open the template in the editor.
                     </div>
                 </div>
 
+               
                 &emsp;
                 <div class="row">
                     <div class="col-xs-5">
                         <output class="form-control">
-                            Ημ.Γένησης
+                            E-mail
                         </output>
                     </div>
                     <div class="col-xs-7">
@@ -123,6 +124,7 @@ and open the template in the editor.
                         </div>
                     </div>
                 </div>
+                
                 &emsp;
                 <div class="row">
                     <div class="col-xs-5">
@@ -140,22 +142,6 @@ and open the template in the editor.
                     </div>
                 </div>
 
-                &emsp;
-                <div class="row">
-                    <div class="col-xs-5">
-                        <output class="form-control">
-                            E-mail
-                        </output>
-                    </div>
-                    <div class="col-xs-7">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="">
-                            <span class="input-group-btn">
-                                <button type="button" class="btn btn-success">Change</button>
-                            </span>
-                        </div>
-                    </div>
-                </div>
                 &emsp;
                 <div class="row">
                     <div class="col-xs-5">
