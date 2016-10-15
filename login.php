@@ -90,6 +90,7 @@
 
         <footer><!-- FOOTER -->
                  <div class="container">
+                     <p> &emsp; &emsp; </p>
                 <?php
                 echo "&copy ";
                 echo date("Y");

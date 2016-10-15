@@ -518,6 +518,7 @@ and open the template in the editor.
 
         <footer><!-- FOOTER -->
                  <div class="container">
+                     <p> &emsp; &emsp; </p>
                 <p class="pull-right"><a href="#">Back to Top</a></p>
                 <?php
                 echo "&copy ";
