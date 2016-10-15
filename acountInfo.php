@@ -70,8 +70,8 @@ and open the template in the editor.
         <div class="container">
             <p> &emsp; &emsp; </p>
             <p> &emsp; &emsp; </p>
-            <h2>User Informations </h2>
-            <p>You can change it there</p>  
+            <h2>Πληροφορίες Χρήστη </h2>
+            <p>Εδώ γίνονται αλλαγές</p>  
             <p> &emsp; &emsp; </p>
             <form>
                 <div class="row">
