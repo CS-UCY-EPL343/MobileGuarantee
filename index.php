@@ -84,14 +84,12 @@ and open the template in the editor.
                                         </button>
                                     </form>
                                 </li>
-
                                 <li>
-                                    
-                                        <button class="btn btn-danger btn-lg" data-toggle="tooltip" data-placement="bottom" title="You don't have any bookings yet."><span class="glyphicon glyphicon-shopping-cart"></span> <span class="items">0</span></button>
-                                    
-
-                       
+                                    <form class="navbar-form navbar-right"> 
+                                        <button class="btn btn-danger btn-group-sm" data-toggle="tooltip" data-placement="bottom" title="You don't have any purchases yet."><span class="glyphicon glyphicon-shopping-cart"></span> <span class="items">0</span></button>
+                                    </form>
                                 </li>
+
                             </ul>
                         </div>
                     </div>
