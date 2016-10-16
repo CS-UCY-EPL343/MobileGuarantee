@@ -66,8 +66,8 @@ and open the template in the editor.
         <div class="container">
             <p> &emsp; &emsp; </p>
             <p> &emsp; &emsp; </p>
-            <h2>User Purchases & Guarantee </h2>
-            <p>You can request Original receipt from the Store Via email</p>  
+            <h2>Αγορές & Εγγυήσεις </h2>
+            <p>Μπορείτε να ζητήσετε απόδειξη καταστήματος με e-mail </p>  
 
             <table class="table table-hover">
                 <thead>
