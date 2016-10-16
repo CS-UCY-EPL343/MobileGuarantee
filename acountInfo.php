@@ -52,11 +52,7 @@ and open the template in the editor.
                                         <button type="button" class="btn btn-default">
                                             <span class="glyphicon glyphicon-search"></span> Search
                                         </button>
-                                        <?php
-                                        echo " &emsp; &copy ";
-                                        echo date("Y");
-                                        echo "  MicroPro Systems,Inc";
-                                        ?>
+                                        
                                     </form>
                                 </li>
 
