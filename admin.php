@@ -29,7 +29,11 @@ and open the template in the editor.
 
         <!-- Custom styles for this template -->
         <link href="carousel.css" rel="stylesheet">
-
+        <style>
+            body{
+                padding-top: 50px;
+            }
+        </style>
     </head>
     <body>
 
@@ -37,7 +41,7 @@ and open the template in the editor.
 
         <div class="navbar-wrapper">
             <div class="container">
-                <nav class="navbar navbar-default navbar-static-top">
+                <nav class="navbar navbar-default navbar-fixed-top">
                     <div class="container">
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -48,7 +52,9 @@ and open the template in the editor.
                             </button>
                             <!--<a class="navbar-brand" href="#">Project name</a>-->
                             <div class="container-fluid"> 
-                                <img class="img-responsive" src="pic/logo2.png" alt="Logo" style="width:260px;height:50px" >
+                                <a href="#">
+                                    <img class="img-responsive" src="pic/logo2.png" alt="Logo" style="width:220px;height:40px" >
+                                </a>
                             </div>
 
                         </div>
@@ -95,7 +101,7 @@ and open the template in the editor.
             <h3>Administrator</h3>
 
             <ul class="nav nav-divider">
-                <li class="active"><a href="#" data-toggle="collapse" data-target="#collapse1" >Κύριες Λειτουργίες</a>
+                <li class="active"><a href="#stay_her1" name="stay_her1" data-toggle="collapse" data-target="#collapse1" >Κύριες Λειτουργίες</a>
                     <div id="collapse1" class="collapse">
 
                         <p> &emsp; &emsp; </p>
@@ -103,17 +109,18 @@ and open the template in the editor.
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Search or Delete Product Quarantee">
                             </div>
-                            <button type="button" class="btn btn-info">
-                                <span class="glyphicon glyphicon-search"></span> Search Quarantee
-                            </button>
-                            <button type="button" class="btn btn-warning">
-                                <span class="glyphicon glyphicon-remove"></span> Delete Quarantee
-                            </button>
+                            <div class="form-group">
+                                <button type="button" class="btn btn-info">
+                                    <span class="glyphicon glyphicon-search"></span> Search Quarantee
+                                </button>
+                                <button type="button" class="btn btn-warning">
+                                    <span class="glyphicon glyphicon-remove"></span> Delete Quarantee
+                                </button>
 
-                            <button type="button" class="btn btn-warning">
-                                <span class="glyphicon glyphicon-remove"></span> Delete Product
-                            </button>
-
+                                <button type="button" class="btn btn-warning">
+                                    <span class="glyphicon glyphicon-remove"></span> Delete Product
+                                </button>
+                            </div>
                         </form>
                         <p> &emsp; &emsp; </p>
                         <form>
@@ -128,7 +135,7 @@ and open the template in the editor.
                             </button>
 
                             <p> &emsp; &emsp; </p>
-                            <li class="active"><a href="#" data-toggle="collapse" data-target="#collapse1_2" >Χρήστες</a>
+                            <li class="active"><a href="#stay_her2" name="stay_her2" data-toggle="collapse" data-target="#collapse1_2" >Χρήστες</a>
                                 <div id="collapse1_2" class="collapse">
 
                                     <p> &emsp; &emsp; </p>
@@ -162,7 +169,7 @@ and open the template in the editor.
                                                 </tr>
                                             </tbody>
                                         </table>
-                                        <p class="pull-right"><a href="#">Back to Top</a></p>
+                                        <p class="pull-right"><a href="">Back to Top</a></p>
                                     </div>
 
                                     <div class="Εταιρίες">
@@ -210,7 +217,7 @@ and open the template in the editor.
                 <!--<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Simple collapsible</button>-->
 
 
-                <li><a href="#"data-toggle="collapse" data-target="#collapse2">Εισαγωγή Ιδιότη</a>
+                <li><a href="#stay_her3" name="stay_her3" data-toggle="collapse" data-target="#collapse2">Εισαγωγή Ιδιότη</a>
                     <div id="collapse2" class="collapse">
                         <p> &emsp; &emsp; </p>
                         <form>
@@ -232,7 +239,7 @@ and open the template in the editor.
                             <div class="row">
                                 <div class="col-xs-5">
                                     <output class="form-control">
-                                        Αύξων Αρ.Πελάτη 
+                                        Αρ.Πελάτη 
                                     </output>
                                 </div>
                                 <div class="col-xs-7">
@@ -367,7 +374,7 @@ and open the template in the editor.
                 </li>
 
 
-                <li><a href="#"data-toggle="collapse" data-target="#collapse3">Εισαγωγή Εταιρίας</a>
+                <li><a href="#stay_her4" name="stay_her4"data-toggle="collapse" data-target="#collapse3">Εισαγωγή Εταιρίας</a>
                     <div id="collapse3" class="collapse">
 
                         <p> &emsp; &emsp; </p>
@@ -389,7 +396,7 @@ and open the template in the editor.
                             <div class="row">
                                 <div class="col-xs-5">
                                     <output class="form-control">
-                                        Αύξων Αρ.Εταιρίας 
+                                        Αύξων Αρ.
                                     </output>
                                 </div>
                                 <div class="col-xs-7">
@@ -404,7 +411,7 @@ and open the template in the editor.
                             <div class="row">
                                 <div class="col-xs-5">
                                     <output class="form-control">
-                                        Όνομα Εταιρίας
+                                        Όνομα
                                     </output>
                                 </div>
                                 <div class="col-xs-7">
@@ -419,7 +426,7 @@ and open the template in the editor.
                             <div class="row">
                                 <div class="col-xs-5">
                                     <output class="form-control">
-                                        Α.Φ.Μ Εταιριας
+                                        Α.Φ.Μ
                                     </output>
                                 </div>
                                 <div class="col-xs-7">
@@ -517,16 +524,16 @@ and open the template in the editor.
 
 
         <footer><!-- FOOTER -->
-                 <div class="container">
-                     <p> &emsp; &emsp; </p>
+            <div class="container">
+                <p> &emsp; &emsp; </p>
                 <p class="pull-right"><a href="#">Back to Top</a></p>
                 <?php
                 echo "&copy ";
                 echo date("Y");
                 echo "  MicroPro Systems,Inc";
                 ?>
-                </div>
-            </footer>
+            </div>
+        </footer>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

@@ -12,6 +12,13 @@ and open the template in the editor.
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+         
+        <style>
+            body{
+                padding-top: 50px;
+            }
+        </style>
+        
     </head>
     <body>
 
@@ -64,8 +71,8 @@ and open the template in the editor.
         </div>
 
         <div class="container">
-            <p> &emsp; &emsp; </p>
-            <p> &emsp; &emsp; </p>
+            
+            
             <h2>Πληροφορίες Χρήστη </h2>
             <p>Εδώ γίνονται αλλαγές</p>  
             <p> &emsp; &emsp; </p>

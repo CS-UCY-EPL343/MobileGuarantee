@@ -29,7 +29,11 @@ and open the template in the editor.
 
         <!-- Custom styles for this template -->
         <link href="carousel.css" rel="stylesheet">
-
+        <style>
+            body{
+                padding-top: 50px;
+            }
+        </style>
     </head>
     <body>
 
@@ -37,8 +41,9 @@ and open the template in the editor.
 
         <div class="navbar-wrapper">
             <div class="container">
-                <nav class="navbar navbar-default navbar-static-top">
+                <nav class="navbar-default navbar-fixed-top">
                     <div class="container">
+                      
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                                 <span class="sr-only">Toggle</span>
@@ -48,7 +53,9 @@ and open the template in the editor.
                             </button>
                             <!--<a class="navbar-brand" href="#">Project name</a>-->
                             <div class="container-fluid"> 
-                                <img class="img-responsive" src="pic/logo2.png" alt="Logo" style="width:260px;height:50px" >
+                                <a href="#">
+                                <img class="img-responsive" src="pic/logo2.png" alt="Logo" style="width:220px;height:40px" >
+                                </a>
                             </div>
 
                         </div>
@@ -100,6 +107,7 @@ and open the template in the editor.
         <!-- Carousel
         ================================================== -->
         <div class="container">
+                <div class="row">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -113,34 +121,37 @@ and open the template in the editor.
                         <div class="container">
                             <img class="first-slide" src="pic/carusel.png" alt="First slide" style="width:1130px;height:300px" >
                             <div class="carousel-inner">
-                                <h1>Welcome to the shop</h1>
-                                <h4> On our ship you can find Everything! </h4>
-                                <p><a class="btn btn-info btn-lg btn-primary" href="#" role="button"> Shop now! </a></p>
-                                <p> &emsp; &emsp; </p>
+                                <h2>Welcome to Our Shop!</h3>
+                                <h6> On our ship you can find Everything! Most common Electronic Devices is available! </h6>
+                               
+                                
+                                <p><a class="btn btn-info btn-primary" href="#" role="button"> Shop now! </a></p>
+                               
+                          
                             </div>
                         </div>
                     </div>
                     <div class="item">
 
                         <div class="container">
-                            <img class="second-slide" src="pic/carusel2.png" alt="Second slide" style="width:1120px;height:300px">
+                            <img class="second-slide" src="pic/carusel2.png" alt="Second slide" style="width:1130px;height:300px">
                             <div class="carousel-inner">
-                                <h1>Try our new System!</h1>
-                                <h4>All eligible customers can have free account!</h4>
-                                <p><a class="btn btn-info btn-lg btn-primary" href="#" role="button">Sing In! </a></p>
-                                <p> &emsp; &emsp; </p>
+                                <h2>Try our new System!</h2>
+                                <h6>All eligible customers can have free account!Try our Quarantee System!</h6>
+                                <p><a class="btn btn-info  btn-primary" href="#" role="button">Sing In! </a></p>
+                                <p> </p>
                             </div>
                         </div>
                     </div>
                     <div class="item">
 
                         <div class="container">
-                            <img class="third-slide" src="pic/carusel3.png" alt="Third slide" style="width:1130px;height:300px">
+                            <img class="third-slide" src="pic/carusel3.png" alt="Third slide" style="width:1120px;height:300px">
                             <div class="carousel-inner">
-                                <h1>We Can Fix it!</h1>
-                                <h4>In our shop we can fix almost every pc, laptop, mobile, consoles or other micro electronic device.</h4>
-                                <p><a class="btn btn-info btn-lg btn-primary" href="#" role="button">Contact Us</a></p>  
-                                <p> &emsp; &emsp; </p>
+                                <h2>We Can Fix it!</h2>
+                                <h6>In our shop we can fix almost every pc, laptop, mobile, consoles or other micro electronic device.</h6>
+                                <p><a class="btn btn-info  btn-primary" href="#" role="button">Contact Us</a></p>  
+                                <p> </p>
                             </div>
                         </div>
                     </div>
@@ -154,6 +165,7 @@ and open the template in the editor.
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
+                    </div>
         </div><!-- /.carousel -->
     </div>
 
@@ -172,7 +184,9 @@ and open the template in the editor.
                 <p class="lead">You Can veiw our items by scrolling down or hit on the Blue Basket icon near to that text. (You must Sign In to Buy) </p>
             </div>
             <div class="col-md-5">
+                <a href="#Store">
                 <img class="featurette-image img-responsive center-block" src="pic/shopping_basket_add_98581.jpg" alt="Generic placeholder image">
+                </a>
             </div>
 
         </div>
@@ -180,21 +194,21 @@ and open the template in the editor.
 
     </div>
 
-    <p> &emsp; &emsp; </p>
-
-    <h3>Administrator</h3>
-
+  
+ <div class ="container" categories >    
+     
+     <a name="Store"><p> &emsp;</p> </a>
+    <h3> Shop</h3>
     <ul class="nav nav-divider">
-
-        <li class="active"><a href="#"data-toggle="collapse" data-target="#collapse">Computers</a>
-
+ 
+        <li class="active"><a href="#stay_here" name="stay_here" data-toggle="collapse" data-target="#collapse">Computers</a>
             <div id="collapse"  class="collapse" class="active">
-                <p> &emsp; &emsp; </p>
+                
                 <form>
 
                     <div class="row">
 
-                        <div class="col-lg-3">
+                        <div class="col-lg-4">
                             <p> &emsp; &emsp; </p>
                             <form>
                                 <div class = "container ">
@@ -204,7 +218,7 @@ and open the template in the editor.
                                 </div>
                         </div>
 
-                        <div class="col-lg-2">
+                        <div class="col-lg-3">
                             <p> &emsp; &emsp; </p>
                             <output class="form-control">
                                 Keyboard Corsair
@@ -223,9 +237,8 @@ and open the template in the editor.
                 </form>
             </div>
         </li>
-
-
-        <li><a href="#"data-toggle="collapse" data-target="#collapse2">Tablets</a>
+    
+        <li><a href="#stay_here1" name="stay_here1" data-toggle="collapse" data-target="#collapse2">Tablets</a>
 
             <div id="collapse2"  class="collapse" class="active">
                 <p> &emsp; &emsp; </p>
@@ -249,7 +262,7 @@ and open the template in the editor.
             </div>
         </li>
 
-        <li><a href="#"data-toggle="collapse" data-target="#collapse3">Network</a>
+        <li><a href="#stay_here2" name="stay_here2" data-toggle="collapse" data-target="#collapse3">Network</a>
 
             <div id="collapse3"  class="collapse">
                 <p> &emsp; &emsp; </p>
@@ -273,7 +286,7 @@ and open the template in the editor.
             </div>
         </li>
 
-        <li><a href="#"data-toggle="collapse" data-target="#collapse4">Consumables</a>
+        <li><a href="#stay_here3" name="stay_here3" data-target="#collapse4">Consumables</a>
 
             <div id="collapse4"  class="collapse">
                 <p> &emsp; &emsp; </p>
@@ -297,7 +310,7 @@ and open the template in the editor.
             </div>
         </li>
 
-        <li ><a href="#"data-toggle="collapse" data-target="#collapse5">Software</a>
+        <li ><a href="#stay_here4" name="stay_here4" data-toggle="collapse" data-target="#collapse5">Software</a>
 
             <div id="collapse5"  class="collapse">
                 <p> &emsp; &emsp; </p>
@@ -321,7 +334,7 @@ and open the template in the editor.
             </div>
         </li>
 
-        <li><a href="#"data-toggle="collapse" data-target="#collapse6">Telecommunications</a>
+        <li><a href="#stay_here5" name="stay_here5" data-toggle="collapse" data-target="#collapse6">Telecommunications</a>
 
             <div id="collapse6"  class="collapse">
                 <p> &emsp; &emsp; </p>
@@ -345,7 +358,7 @@ and open the template in the editor.
             </div>
         </li>
 
-        <li><a href="#"data-toggle="collapse" data-target="#collapse7">Sound & Vision</a>
+        <li><a href="#stay_here6" name="stay_here6" data-toggle="collapse" data-target="#collapse7">Sound & Vision</a>
 
             <div id="collapse7"  class="collapse">
                 <p> &emsp; &emsp; </p>
@@ -370,7 +383,7 @@ and open the template in the editor.
         </li>
 
 
-        <li><a href="#"data-toggle="collapse" data-target="#collapse8">E-Cigar</a>
+        <li><a href="#stay_here7" name="stay_here7" data-toggle="collapse" data-target="#collapse8">E-Cigar</a>
 
             <div id="collapse8"  class="collapse">
                 <p> &emsp; &emsp; </p>
@@ -394,7 +407,7 @@ and open the template in the editor.
             </div>
         </li>
 
-        <li ><a href="#"data-toggle="collapse" data-target="#collapse9">Storage</a>
+        <li ><a href="#stay_here8" name="stay_here8" data-toggle="collapse" data-target="#collapse9">Storage</a>
 
             <div id="collapse9"  class="collapse">
                 <p> &emsp; &emsp; </p>
@@ -418,7 +431,7 @@ and open the template in the editor.
             </div>
         </li>
 
-        <li ><a href="#"data-toggle="collapse" data-target="#collapse10">Peripherals & Devices</a>
+        <li ><a href="#stay_here9" name="stay_here9" data-toggle="collapse" data-target="#collapse10">Peripherals & Devices</a>
 
             <div id="collapse10"  class="collapse">
                 <p> &emsp; &emsp; </p>
@@ -442,7 +455,7 @@ and open the template in the editor.
             </div>
         </li>
 
-        <li ><a href="#"data-toggle="collapse" data-target="#collapse11">Energy</a>
+        <li ><a href="#stay_here10" name="stay_here10" data-toggle="collapse" data-target="#collapse11">Energy</a>
 
             <div id="collapse11"  class="collapse">
                 <p> &emsp; &emsp; </p>
@@ -468,7 +481,7 @@ and open the template in the editor.
 
     </li>
 
-    <li ><a href="#"data-toggle="collapse" data-target="#collapse12">DIY</a>
+    <li ><a href="#stay_here11" name="stay_here11" data-toggle="collapse" data-target="#collapse12">DIY</a>
 
         <div id="collapse12"  class="collapse">
             <p> &emsp; &emsp; </p>
@@ -500,7 +513,7 @@ and open the template in the editor.
 
 
 
-
+</div>
 
 </div>
 
