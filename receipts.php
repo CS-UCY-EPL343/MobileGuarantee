@@ -69,7 +69,7 @@ and open the template in the editor.
         </div>
 
         <div class="container">
-            <p> &emsp; &emsp; </p>
+    
             <p> &emsp; &emsp; </p>
             <h2>Αγορές & Εγγυήσεις </h2>
             <p>Μπορείτε να ζητήσετε απόδειξη καταστήματος με e-mail </p>  

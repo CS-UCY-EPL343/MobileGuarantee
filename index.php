@@ -87,12 +87,13 @@ and open the template in the editor.
                                             <input type="text" class="form-control" placeholder="Search">
                                         </div>
                                         <button type="button" class="btn btn-default">
-                                            <span class="glyphicon glyphicon-search"></span> Search
+                                            <span class="glyphicon glyphicon-search"></span>
                                         </button>
                                     </form>
                                 </li>
+                                
                                 <li>
-                                    <form class="navbar-form navbar-right"> 
+                                    <form class=" navbar-form navbar-right" > 
                                         <button class="btn btn-danger btn-group-sm" data-toggle="tooltip" data-placement="bottom" title="You don't have any purchases yet."><span class="glyphicon glyphicon-shopping-cart"></span> <span class="items">0</span></button>
                                     </form>
                                 </li>
