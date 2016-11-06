@@ -40,7 +40,6 @@
 
     <body>
 
-
         <?php
         $servername = "localhost";
         $username = "user";
@@ -64,8 +63,8 @@
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
     //$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
-        $sql = "INSERT INTO user (username,incCustomerNumber,name,surname,dob,address,email,telNumber,password)
-VALUES ('ahm123', '1', 'ahmed','ali','2013-03-17','dfrgf','john@example.com','999999','afxanistan')";
+    //    $sql = "INSERT INTO user (username,incCustomerNumber,name,surname,dob,address,email,telNumber,password)
+//VALUES ('ahm123', '1', 'ahmed','ali','2013-03-17','dfrgf','john@example.com','999999','afxanistan')";
 
          
          
