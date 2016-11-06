@@ -30,7 +30,7 @@
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
      
         <![endif]-->
-        
+
         <style>
             body{
                 padding-top: 50px;
@@ -39,6 +39,45 @@
     </head>
 
     <body>
+
+
+        <?php
+        $servername = "localhost";
+        $username = "user";
+        $password = "user123";
+
+// Create connection
+        $conn = new mysqli($servername, $username, $password);
+
+// Check connection
+        if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
+        }
+        echo "Connected successfully";
+        ?> 
+        
+        <?php
+        
+        $dbname = "MicroPro";
+       
+
+    $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+    //$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    
+        $sql = "INSERT INTO user (username,incCustomerNumber,name,surname,dob,address,email,telNumber,password)
+VALUES ('ahm123', '1', 'ahmed','ali','2013-03-17','dfrgf','john@example.com','999999','afxanistan')";
+
+         
+         
+        if ($conn->query($sql) === TRUE) {
+            echo "New record created successfully";
+        } else {
+            echo "Error: " . $sql . "<br>" . $conn->error;
+        }
+
+        $conn->close();
+        ?>
+        
 
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -98,11 +137,11 @@
         <footer><!-- FOOTER -->
             <div class="container">
 
-                <?php
-                echo "&copy ";
-                echo date("Y");
-                echo "  MicroPro Systems,Inc";
-                ?>
+<?php
+echo "&copy ";
+echo date("Y");
+echo "  MicroPro Systems,Inc";
+?>
             </div>
         </footer>
 
