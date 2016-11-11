@@ -1,2 +1,1 @@
 # MobileGuarantee
-# MobileQ web app
