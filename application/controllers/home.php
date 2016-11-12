@@ -31,6 +31,8 @@ class Home extends CI_Controller {
         //redirect('login', 'refresh');
         $this->load->view("logout_view");
     }
+    
+    
 
 }
 
