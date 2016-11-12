@@ -44,7 +44,7 @@ and open the template in the editor.
                             <form class="navbar-form navbar-nav">
                                 <!--<button class="btn btn-info ">Back</button>-->
 
-                                <button type="button" class="btn btn-info">
+                                <button type="button" onclick="history.back(-1)" class="btn btn-info">
                                     <span class="glyphicon glyphicon-backward"></span> Back
                                 </button>
                             </form>

@@ -19,9 +19,6 @@ and open the template in the editor.
 
         <!-- Latest compiled and minified JavaScript -->
        
-        
-        
-        
         <!-- Bootstrap core CSS -->
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/bootstrap-theme.min.css" rel="stylesheet">
@@ -80,7 +77,7 @@ and open the template in the editor.
                         <div id="navbar" class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
                                 <li><a href="#">Home</a></li>    <!--<li class="active"><a href="#">Home</a></li>-->
-                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#">About Us</a></li>
                                 <li><a href="#contact">Contact Us</a></li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">User<span class="caret"></span></a>
@@ -88,7 +85,7 @@ and open the template in the editor.
                                         <!--<li class="dropdown-header">Info</li>-->
                                         <li><a href="Welcome">Purchases & Quarantee </a></li>
                                         <li role="separator" class="divider"></li>
-                                        <li> <a class="btn btn-danger btn-group-vertical" href="#" role="Logout">Sign out</a></li>
+                                        <li> <a class="btn btn-danger btn-group-vertical" href="home/logout" role="Logout">Sign out</a></li>
 
                                     </ul>
                                 </li>
@@ -96,8 +93,9 @@ and open the template in the editor.
                                 <!-- <li> <a class="btn btn-info" href="#" role="Login"> Login</a></li>-->
 
                                 <li>
+                                    
                                     <form class="navbar-form navbar-right"> 
-                                        <button type="submit" class="btn btn-info">Sign in</button>
+                                        <button type="submit" href="http://localhost/MobileGuarantee/" class="btn btn-info">Sign in</button>
                                     </form>
                                 </li>
                                 <li><form class="navbar-form navbar-left">
@@ -112,7 +110,9 @@ and open the template in the editor.
 
                                 <li>
                                     <form class=" navbar-form navbar-right" > 
-                                        <button class="btn btn-danger btn-group-sm" data-toggle="tooltip" data-placement="bottom" title="You don't have any purchases yet."><span class="glyphicon glyphicon-shopping-cart"></span> <span class="items">0</span></button>
+                                        <button type=submit class="btn btn-danger btn-group-sm" data-toggle="tooltip" data-placement="bottom" title="You don't have any purchases yet.">
+                                            <span class="glyphicon glyphicon-shopping-cart"></span> 
+                                            <span class="items">0</span></button>
                                     </form>
                                 </li>
 
@@ -141,7 +141,7 @@ and open the template in the editor.
                                 <img class="first-slide" src="../pic/carusel.png" alt="First slide" style="width:1130px;height:300px" >
                                 <div class="carousel-inner">
                                     <h2>Welcome to Our Shop!</h3>
-                                        <h6> On our ship you can find Everything! Most common Electronic Devices is available! </h6>
+                                        <h6> In our shop you can find Everything! Most common Electronic Devices is available! </h6>
 
 
                                         <p><a class="btn btn-info btn-primary" href="#" role="button"> Shop now! </a></p>
@@ -157,7 +157,7 @@ and open the template in the editor.
                                 <div class="carousel-inner">
                                     <h2>Try our new System!</h2>
                                     <h6>All eligible customers can have free account!Try our Quarantee System!</h6>
-                                    <p><a class="btn btn-info  btn-primary" href="#" role="button">Sing In! </a></p>
+                                    <p><a class="btn btn-info  btn-primary" href="http://localhost/MobileGuarantee/" role="button">Sing In! </a></p>
                                     <p> </p>
                                 </div>
                             </div>
