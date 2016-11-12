@@ -73,7 +73,7 @@
                                 <legend>
                                     <div class="col-md-6">
                                         <div class="container-fluid">
-                                            <img class="img-responsive" src="pic/logo2.png" alt="Logo" style="width:215px;height:38px" >
+                                            <img class="img-responsive" src="http://localhost/MobileGuarantee/pic/logo2.png" alt="Logo" style="width:215px;height:38px" >
                                         </div>
                                     </div>
                                     Login
@@ -121,13 +121,16 @@
 
         <footer><!-- FOOTER -->
             <div class="center-block" >
-
+<div class ="container-fluid">
+    <div class ="col-lg-3">
 <?php
-echo "&copy ";
+echo "&nbsp;&copy ";
 echo date("Y");
 echo "MicroPro Systems,Inc";
 ?>
-           </div>
+    </div>       
+    </div>
+                </div>
         </footer>
 
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->

@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>MicroProMobileQ</title>
+        <title>MicroPro Home Page</title>
         <link type="text/css" href="../../css/bootstrap.min.css" rel="stylesheet" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 

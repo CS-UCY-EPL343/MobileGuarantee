@@ -18,15 +18,15 @@ class login extends CI_Controller
 
      public function index()
      {
-          //get the posted values
+         
          
           $username = $this->input->post("txt_username");
-          $password = $this->input->post("txt_password");
+          $password = md5($this->input->post("txt_password"));
 
           //set validations
           $this->form_validation->set_rules("txt_username", "Username", "trim|required");
           $this->form_validation->set_rules("txt_password", "Password", "trim|required");
-
+          
           if ($this->form_validation->run() == FALSE)
           {
                //validation fails
@@ -42,6 +42,7 @@ class login extends CI_Controller
                     $usr_result = $this->login_model->get_user($username, $password);
                     if ($usr_result > 0) //active user record is present
                     {
+                        
                          //set the session variables
                          $sessiondata = array(
                               'username' => $username,
@@ -53,12 +54,13 @@ class login extends CI_Controller
                     else
                     {
                          $this->session->set_flashdata('msg', '<div class="alert alert-danger text-center">Invalid username and password!</div>');
-                         redirect('login/index');
+                         redirect("login/index");
                     }
                }
                else
                {
-                    redirect('login/index');
+                    redirect("login/index");
+                    
                }
           }
      }

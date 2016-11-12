@@ -5,7 +5,7 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Login Form</title>
      <!--link the bootstrap css file-->
-     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
      
      <style type="text/css">
      .colbox {
@@ -18,7 +18,7 @@
 <div class="container">
      <div class="row">
           <div class="col-lg-6 col-sm-6">
-              <img src="../pic/logo2.png" style="width:215px;height:38px" >
+              <img src="http://localhost/MobileGuarantee/pic/logo2.png" style="width:215px;height:38px" >
           </div>
           <div class="col-lg-6 col-sm-6">
                
