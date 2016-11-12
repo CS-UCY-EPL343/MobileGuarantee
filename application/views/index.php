@@ -86,7 +86,7 @@ and open the template in the editor.
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">User<span class="caret"></span></a>
                                     <ul class="dropdown-menu">
                                         <!--<li class="dropdown-header">Info</li>-->
-                                        <li><a href="#">Purchases & Quarantee </a></li>
+                                        <li><a href="Welcome">Purchases & Quarantee </a></li>
                                         <li role="separator" class="divider"></li>
                                         <li> <a class="btn btn-danger btn-group-vertical" href="#" role="Logout">Sign out</a></li>
 

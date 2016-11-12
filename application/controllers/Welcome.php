@@ -20,6 +20,26 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		$this->load->view('receipts');
 	}
+        
+        
+        
+        public function select(){     
+  
+ //$connect = mysqli_connect("localhost", "root", "", "micropro");  
+ $output = array();  
+ $query = "SELECT * FROM receipt WHERE username='giakri01'";  
+ $result = mysqli_query($query);  
+ if(mysqli_num_rows($result) > 0)  
+ {  
+      while($row = mysqli_fetch_array($result))  
+      {  
+           $output[] = $row;  
+      }  
+      echo json_encode($output);  
+ }  
+  
+        }
+                
 }

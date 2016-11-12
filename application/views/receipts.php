@@ -12,6 +12,7 @@ and open the template in the editor.
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>  
         <style>
             body{
                 padding-top: 50px;
@@ -57,7 +58,7 @@ and open the template in the editor.
                                         <button type="button" class="btn btn-default">
                                             <span class="glyphicon glyphicon-search"></span> Search
                                         </button>
-                                       
+
                                     </form>
                                 </li>
 
@@ -69,89 +70,56 @@ and open the template in the editor.
         </div>
 
         <div class="container">
-    
+
             <p> &emsp; &emsp; </p>
             <h2>Αγορές & Εγγυήσεις </h2>
             <p>Μπορείτε να ζητήσετε απόδειξη καταστήματος με e-mail </p>  
-
-            <table class="table table-hover">
-                <thead>
-                    <tr>
-                        <th>Receipt No.</th>
+            <div ng-app="myapp" ng-controller="usercontroller" ng-init="displayData()"> 
+                <table class="table table-hover">
+                    <tr>  
+                        <th>Receipt Number</th>
+                        <th>Product Serial Number</th>
                         <th>Description</th>
-                        <th>Guarantee</th>
+                        <th>Quarantee until</th>
                         <th>Price (&euro;)</th>
+                    </tr>  
+                    <tr ng-repeat="x in names">
+                        <td>{{x.receiptNo}}</td>  
+                        <td>{{x.serialNo}}</td>
+                        <td>{{x.description}}</td>
+                        <td>{{x.expiryDate}}</td> 
+                        <td>{{x.price}}</td>  
+                    </tr>  
 
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1234</td>
-                        <td>usb 3.1 </td>
-                        <td>lifetime </td>
-                        <td>5</td>
-                    </tr>
-                    <tr>
-                        <td>4567</td>
-                        <td>3d Printer HP</td>
-                        <td>lifetime </td>
-                        <td>1200</td>
-                    </tr>
-                    <tr>
-                        <td>8612</td>
-                        <td>keyboad microsoft</td>
-                        <td>lifetime </td>
-                        <td>20</td>
-                    </tr>
-                    <tr>
-                        <td>4545</td>
-                        <td>usb 3.1 Cabletech</td>
-                        <td>lifetime </td>
-                        <td>5</td>
-                    </tr>
-                    <tr>
-                        <td>2121</td>
-                        <td>3d Printer epson</td>
-                        <td>lifetime </td>
-                        <td>1200</td>
-                    </tr>
-                    <tr>
-                        <td>2442</td>
-                        <td>keyboad</td>
-                        <td>lifetime </td>
-                        <td>20</td>
-                    </tr>
-                    <tr>
-                        <td>4214</td>
-                        <td>usb 3.1 </td>
-                        <td>lifetime </td>
-                        <td>5</td>
-                    </tr>
-                    <tr>
-                        <td>4642</td>
-                        <td>3d Printer pro</td>
-                        <td>lifetime </td>
-                        <td>1200</td>
-                    </tr>
-                    <tr>
-                        <td>5785</td>
-                        <td>keyboad</td>
-                        <td>lifetime </td>
-                        <td>20</td>
-                    </tr>
-                </tbody>
-            </table>
+
+                </table>
+            </div>
         </div>
-<footer><!-- FOOTER -->
-                 <div class="container">
-                     <p> &emsp; &emsp; </p>
+        <footer><!-- FOOTER -->
+            <div class="container">
+                <p> &emsp; &emsp; </p>
                 <p class="pull-right"><a href="#">Back to Top</a></p>
                 <?php
                 echo "&copy ";
                 echo date("Y");
                 echo "  MicroPro Systems,Inc";
                 ?>
-                </div>
-            </footer>
+            </div>
+        </footer>
     </body>
 </html>
+<script>
+
+    var app = angular.module("myapp", []);
+    app.controller("usercontroller", function ($scope, $http) {
+
+        $scope.displayData = function () {
+            $http.post("select")
+                    .success(function (data) {
+                        $scope.names = data;
+                    });
+                    
+                    
+        }
+    });
+</script>  
