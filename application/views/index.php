@@ -85,6 +85,8 @@ and open the template in the editor.
                                         <!--<li class="dropdown-header">Info</li>-->
                                         <li><a href="Welcome">Purchases & Quarantee </a></li>
                                         <li role="separator" class="divider"></li>
+                                        <li><a href="infoCtrl">Account Information</a></li>
+                                        <li role="separator" class="divider"></li>
                                         <li> <a class="btn btn-danger btn-group-vertical" href="home/logout" role="Logout">Sign out</a></li>
 
                                     </ul>

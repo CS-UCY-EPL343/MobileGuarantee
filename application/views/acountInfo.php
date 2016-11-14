@@ -9,10 +9,12 @@ and open the template in the editor.
         <title>Account Informations</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-         
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>  
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />  
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>  
         <style>
             body{
                 padding-top: 50px;
@@ -43,7 +45,7 @@ and open the template in the editor.
                             <form class="navbar-form navbar-nav">
                                 <!--<button class="btn btn-info ">Back</button>-->
 
-                                <button type="button" class="btn btn-info">
+                                <button type="button" onclick="history.back(-1)" class="btn btn-info">
                                     <span class="glyphicon glyphicon-backward"></span> Back
                                 </button>
                             </form>
@@ -76,122 +78,26 @@ and open the template in the editor.
             <h2>Πληροφορίες Χρήστη </h2>
             <p>Εδώ γίνονται αλλαγές</p>  
             <p> &emsp; &emsp; </p>
-            <form>
-                <div class="row">
-                    <div class="col-xs-5">
-                        <output class="form-control">
-                            Όνομα
-                        </output>
-                    </div>
-                    <div class="col-xs-7">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="">
-                            <span class="input-group-btn">
-                                <button type="button" class="btn btn-success">Change</button>
-                            </span>
-                        </div>
-                    </div>
-                </div>
+            <div ng-app="myapp1" ng-controller="usercontroller" ng-init="displayData()"> 
+                <table class="table table-hover">
+                    <tr>  
+                        <th>Username</th>
+                        <th>Address</th>
+                        <th>Email</th>
+                        <th>Telephone Number</th>
+                    
+                    </tr>  
+                    <tr ng-repeat="x in names">
+                        <td>{{x.username}}</td>  
+                        <td>{{x.address}}</td>
+                        <td>{{x.email}}</td>
+                        <td>{{x.telNumber}}</td> 
 
-                &emsp;
-                <div class="row">
-                    <div class="col-xs-5">
-                        <output class="form-control">
-                            Επίθετο
-                        </output>
-                    </div>
-                    <div class="col-xs-7">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="">
-                            <span class="input-group-btn">
-                                <button type="button" class="btn btn-success">Change</button>
-                            </span>
-                        </div>
-                    </div>
-                </div>
+                    </tr>  
 
-                &emsp;
-                <div class="row">
-                    <div class="col-xs-5">
-                        <output class="form-control">
-                            Ημ.Γένησης
-                        </output>
-                    </div>
-                    <div class="col-xs-7">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="">
-                            <span class="input-group-btn">
-                                <button type="button" class="btn btn-success">Change</button>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                &emsp;
-                <div class="row">
-                    <div class="col-xs-5">
-                        <output class="form-control">
-                            Διεύθυνση
-                        </output>
-                    </div>
-                    <div class="col-xs-7">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="">
-                            <span class="input-group-btn">
-                                <button type="button" class="btn btn-success">Change</button>
-                            </span>
-                        </div>
-                    </div>
-                </div>
 
-                &emsp;
-                <div class="row">
-                    <div class="col-xs-5">
-                        <output class="form-control">
-                            E-mail
-                        </output>
-                    </div>
-                    <div class="col-xs-7">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="">
-                            <span class="input-group-btn">
-                                <button type="button" class="btn btn-success">Change</button>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                &emsp;
-                <div class="row">
-                    <div class="col-xs-5">
-                        <output class="form-control">
-                            Password
-                        </output>
-                    </div>
-                    <div class="col-xs-7">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="">
-                            <span class="input-group-btn">
-                                <button type="button" class="btn btn-success">Change</button>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                &emsp;
-                <div class="row">
-                    <div class="col-xs-5">
-                        <output class="form-control">
-                            Τηλέφωνο
-                        </output>
-                    </div>
-                    <div class="col-xs-7">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="">
-                            <span class="input-group-btn">
-                                <button type="button" class="btn btn-success">Change</button>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </form>
+                </table>
+            </div>
 
 
         </div>
@@ -210,3 +116,15 @@ and open the template in the editor.
         
     </body>
 </html>
+<script>
+    
+    var app = angular.module("myapp1", []);
+    app.controller("usercontroller", function ($scope, $http) {
+        $scope.displayData = function () {
+            $http.get("infoCtrl/information")
+                    .success(function (data) {
+                        $scope.names = data;
+                    });
+        }
+    });
+</script>
