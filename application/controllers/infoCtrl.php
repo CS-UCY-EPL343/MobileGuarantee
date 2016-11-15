@@ -19,41 +19,39 @@ class infoCtrl extends CI_Controller {
      * map to /index.php/welcome/<method_name>
      * @see https://codeigniter.com/user_guide/general/urls.html
      */
+    
+    public function __construct()
+     {
+          parent::__construct();
+          $this->load->library('session');
+          $this->load->helper('form');
+          $this->load->helper('url');
+          $this->load->helper('html');
+          $this->load->database();
+          $this->load->model('info_model');
+     }
     public function index() {
         $this->load->view('acountInfo');
     }
     
      public function information(){
-        //select.php  
-        $this->load->library('session');
-        $connect = mysqli_connect("localhost", "root", "", "micropro");
-        $output = array();
-        $data=$this->session->userdata('username');
-//         $query1 =   "SELECT * 
-//                    FROM corporation 
-//                    WHERE username='$usr' 
-//                    UNION 
-//                    SELECT *
-//                    FROM user 
-//                    WHERE username='$usr'";
-//          $query1 = $this->db->query($sql);
-//          
-//         echo "$query1";
-//        $result = mysqli_query($connect, $query1);
+        
+//        $this->load->library('session');
+//        $connect = mysqli_connect("localhost", "root", "", "micropro");
+//        $output = array();
+//        $data=$this->session->userdata('username');
+//
+//         $query = "SELECT username, email, telNumber, address FROM user WHERE username='$data' 
+//         UNION SELECT username, email, telNumber, address FROM corporation WHERE username='$data'";
+//        $result = mysqli_query($connect, $query);
 //        if (mysqli_num_rows($result) > 0) {
 //            while ($row = mysqli_fetch_array($result)) {
-//                $output2[] = $row;
+//                $output[] = $row;
 //            }
-//            echo json_encode($output2);
+//            echo json_encode($output);
 //        }
-         $query = "SELECT username, email, telNumber, address FROM user WHERE username='$data' 
-         UNION SELECT username, email, telNumber, address FROM corporation WHERE username='$data'";
-        $result = mysqli_query($connect, $query);
-        if (mysqli_num_rows($result) > 0) {
-            while ($row = mysqli_fetch_array($result)) {
-                $output[] = $row;
-            }
-            echo json_encode($output);
-        }
+         
+         $output=$this->info_model->get_user_info();
+        echo json_encode($output);
     }
 }

@@ -9,13 +9,21 @@ class receipt_model extends CI_Model
      }
 
      //get the username & password from tbl_usrs
-     function get_user_rec($usr)
+     function  get_user_rec()
      {
-          $sql = "SELECT receiptNo,serialNo,description,expiryDate,price "
-                  . "FROM receipt "
-                  . "WHERE username='$usr' "; 
-                  
-          $query = $this->db->query($sql);
-          return $query;
+         $this->load->library('session');
+        $connect = mysqli_connect("localhost", "root", "", "micropro");
+        $output = array();
+        $data=$this->session->userdata('username');
+        $query = "SELECT * FROM receipt WHERE username='$data'";
+        $result = mysqli_query($connect, $query);
+        if (mysqli_num_rows($result) > 0) {
+            while ($row = mysqli_fetch_array($result)) {
+                $output[] = $row;
+            }
+            
+            return $output;
+        }
+    }
+          
      }
-}

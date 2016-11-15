@@ -8,26 +8,39 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title>Administrator</title>
-        <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet" />
+        <link type="text/css" href="../../css/bootstrap.min.css" rel="stylesheet" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+       
         <!-- Bootstrap core CSS -->
-        <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="../../css/bootstrap.css" rel="stylesheet">
+        <link href="../../css/bootstrap-theme.css" rel="stylesheet">
+        
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <!-- THIS LINE -->
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+        <script href="../../js/bootstrap.js" ></script>
+        <script href="../../js/bootstrap.min.js" ></script>
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script href="../../js/npm.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-        <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-        <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-        <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
-        <!-- Custom styles for this template -->
         <link href="carousel.css" rel="stylesheet">
         <style>
             body{
@@ -53,7 +66,7 @@ and open the template in the editor.
                             <!--<a class="navbar-brand" href="#">Project name</a>-->
                             <div class="container-fluid"> 
                                 <a href="#">
-                                    <img class="img-responsive" src="pic/logo2.png" alt="Logo" style="width:220px;height:40px" >
+                                    <img class="img-responsive" src="../pic/logo2.png" alt="Logo" style="width:220px;height:40px" >
                                 </a>
                             </div>
 
@@ -67,7 +80,7 @@ and open the template in the editor.
                                         <!--<li class="dropdown-header">Info</li>-->
                                         <li><a href="#">Help Line</a></li>
                                         <li role="separator" class="divider"></li>
-                                        <li> <a class="btn btn-danger btn-group-vertical" href="#" role="Logout">Sign out</a></li>
+                                        <li> <a class="btn btn-danger btn-group-vertical" href="adminHome/logout" role="Logout">Sign out</a></li>
 
                                     </ul>
                                 </li>
