@@ -4,7 +4,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html lang="en">
+<html>
     <head>
         <title>Contact Us</title>
         <meta charset="utf-8">
@@ -132,15 +132,4 @@ and open the template in the editor.
         </footer>
     </body>
 </html>
-<script>
 
-    var app = angular.module("myapp", []);
-    app.controller("usercontroller", function ($scope, $http) {
-        $scope.displayData = function () {
-            $http.get("Welcome/sect")
-                    .success(function (data) {
-                        $scope.names = data;
-                    });
-        }
-    });
-</script>

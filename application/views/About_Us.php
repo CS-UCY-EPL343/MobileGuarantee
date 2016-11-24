@@ -106,15 +106,4 @@ and open the template in the editor.
         </footer>
     </body>
 </html>
-<script>
 
-    var app = angular.module("myapp", []);
-    app.controller("usercontroller", function ($scope, $http) {
-        $scope.displayData = function () {
-            $http.get("Welcome/sect")
-                    .success(function (data) {
-                        $scope.names = data;
-                    });
-        }
-    });
-</script>
