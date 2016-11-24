@@ -77,8 +77,8 @@ and open the template in the editor.
                         <div id="navbar" class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
                                 <li><a href="#">Home</a></li>    <!--<li class="active"><a href="#">Home</a></li>-->
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#contact">Contact Us</a></li>
+                                <li><a href='AboutC/index'>About Us</a></li>
+                                <li><a href='ContactC/index'>Contact Us</a></li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">User<span class="caret"></span></a>
                                     <ul class="dropdown-menu">

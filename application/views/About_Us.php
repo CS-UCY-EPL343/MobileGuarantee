@@ -76,7 +76,7 @@ and open the template in the editor.
 
         <div class="container">
 
-        <img class="img-responsive" src="../pic/logo2.png" alt="Shop" style="width:1000px;height:100px" >
+        <img class="img-responsive" src="../../pic/logo2.png" alt="Shop" style="width:700px;height:90px" >
 
                 <h2>Γνωρίστε μας </h2>
                 <br>
