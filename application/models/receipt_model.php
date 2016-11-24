@@ -24,6 +24,7 @@ class receipt_model extends CI_Model
             
             return $output;
         }
+        mysqli_connect.closedir();
     }
           
      }

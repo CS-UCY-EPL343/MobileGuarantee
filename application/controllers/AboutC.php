@@ -17,3 +17,4 @@ class AboutC extends CI_Controller {
     }
 
 }
+?>

@@ -26,6 +26,7 @@ class info_model extends CI_Model
             }
             return $output;
         }
+        mysqli_connect.closedir();
       }
      
      
